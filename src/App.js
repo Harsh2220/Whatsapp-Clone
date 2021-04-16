@@ -1,12 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import Sidebar from './Sidebar';
+import Chat from './Chat';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Harsh</h1>
-      <div className="App_body">
-        
+    <div className="app">
+      <div className="app_body">
+        <Sidebar />
+        <Chat/>
       </div>
     </div>
   );
