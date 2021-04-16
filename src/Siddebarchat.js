@@ -8,7 +8,7 @@ function Siddebarchat() {
             <Avatar />
             <div className="sidebarchat_info">
                 <h2>Name</h2>
-                <p>last seen</p>
+                <p>Last Message</p>
             </div>
         </div>
     )

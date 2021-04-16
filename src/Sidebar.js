@@ -26,11 +26,23 @@ function Sidebar() {
             </div>
             <div className="sidebar_search">
                 <div className="sidebar_searchcontainer">
-                    <SearchIcon />
+                    <SearchIcon/>
                     <input type="text" placeholder="Search or start new chat" />
                 </div>
             </div>
             <div className="sidebar_chats">
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
+                <Siddebarchat />
                 <Siddebarchat />
                 <Siddebarchat />
                 <Siddebarchat />

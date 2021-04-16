@@ -7,8 +7,9 @@
 .sidebar_header{
     display: flex;
     justify-content:space-between;
-    padding: 20px;
+    padding: 10px;
     border-right: 1px solid lightgray;
+    align-items: center;
 }
 
 .sidebar_headerright{
@@ -53,4 +54,19 @@
 
 .sidebar_chats{
     flex: 1;
+    overflow-y: scroll;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(210, 210, 210); 
+  }
