@@ -43,6 +43,7 @@
 .chat_message{
     position: relative;
     font-size: 16px;
+    margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
     width: fit-content;
@@ -59,7 +60,7 @@
     top: -15px;
     font-size:x-small;
     font-weight: 700;
-    color: #35cd96;
+    /* color: #35cd96; */
 }
 
 .chat_time{
@@ -96,4 +97,9 @@
     color: gray;
     padding: 10px;
     cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
